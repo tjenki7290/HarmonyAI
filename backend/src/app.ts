@@ -16,7 +16,7 @@ app.use((req, _res, next) => {
   next();
 });
 
-app.use("/health", healthRoutes);
+app.use("/", healthRoutes);
 
 
 // error handler LAST
